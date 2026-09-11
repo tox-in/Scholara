@@ -1,2 +1,2 @@
-# Angularjs-threads-clone
-this is a threads clone frontend api development with the use of Angularjs framework
+# Springboot school management system
+this is a project used for both backend springboot, reactjs frontend and for Devops practices
