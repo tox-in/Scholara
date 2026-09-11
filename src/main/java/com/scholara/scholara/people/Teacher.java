@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Column(name = "teachers")
+@Table(name = "teachers")
 public class Teacher {
 
     @Id
@@ -20,6 +20,9 @@ public class Teacher {
     @Column(name = "employee_number", nullable = false, unique = true, length = 50)
     private String employeeNumber;
 
-    @Co
+    @Column(name = "hire_date")
     private LocalDate hireDate;
+
+    @Column(nullable = false, length = 20)
+    private String status;
 }

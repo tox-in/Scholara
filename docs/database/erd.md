@@ -1,4 +1,4 @@
-# School Management System — ERD (Phase 0)
+~~# School Management System — ERD (Phase 0)
 
 Status: draft
  
@@ -188,6 +188,11 @@ assessments
 │
 ▼
 scores
+
+#### People-User relationships
+Student  → User   optional
+Teacher  → User   required
+Guardian → User   optional
 
 
 teachers
